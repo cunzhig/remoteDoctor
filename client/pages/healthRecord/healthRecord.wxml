@@ -1,0 +1,29 @@
+<!--client/pages/healthRecord/healthRecord.wxml-->
+<form bindsubmit='res'>
+  <view class="section">
+        <view class="healthView">Pulse Rate(bpm)：
+      <input class="input" type="number" name="pulse" placeholder="Please input your pulse"
+      bindinput ="healthInput"/>
+      </view>
+
+      <view class="healthView">Blood Oxygen(%）：
+      <input class="input" type="number" name="oxygen" placeholder="Please input your blood oxygen"
+      bindinput="healthInput" />
+      </view>
+
+      <view class="healthView">Blood Pressure(mmHg）：
+      <input class="input" type="number" name="hpressure" placeholder="Please input your systolic pressure"
+      bindinput="healthInput" />
+      <input class="input" type="number" name="lpressure" placeholder="Please input your diastolic pressure"
+      bindinput="healthInput" />
+      </view>
+
+      <view class="healthView">Temperature(℃）：
+      <input class="input" type="digit" name="temp" placeholder="Please input your temparature"
+      bindinput="healthInput" />
+      </view>
+  </view>
+
+
+  <view class='submit'><button class = 'submitBtn' form-type='submit'>Submit</button></view>
+</form>
