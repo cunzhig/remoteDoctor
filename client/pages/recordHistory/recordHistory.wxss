@@ -1,0 +1,33 @@
+.title{
+  width: 100%;
+  line-height: 45px;
+  font-size: 36rpx;
+  text-align: center;
+  align-content: center;
+}
+
+.container{
+  align-items: center;
+}
+
+.record{
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 30rpx;
+  margin-top: 30rpx;
+  /* height: 400rpx; */
+  width: 700rpx;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: all 300ms ease;
+}
+
+.data{
+  line-height: 25px;
+  margin-left: 30px;
+  font-size: 30rpx;
+}
+
+.date{
+  color: darkblue
+}
