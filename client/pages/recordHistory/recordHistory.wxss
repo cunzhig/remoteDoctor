@@ -20,6 +20,7 @@
   background: #fff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   transition: all 300ms ease;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
 .data{
