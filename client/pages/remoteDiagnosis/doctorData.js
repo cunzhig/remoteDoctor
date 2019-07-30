@@ -22,21 +22,21 @@ var doctorData = [
   {
     id: 4, text: 'Stomatology', name: "Maggie", title: "Doctor4", cls: "", contact: {
       tel: "13300000000",
-      email: "madifgia@xxx.com",
+      email: "ddd@xxx.com",
       wechat: "r3rr33",
       addr: "999 Chang Le Road, Xu Hui District, 310323"
     }},
   {
     id: 5, text: 'Orthopedics', name: "Jack", title: "Doctor5", cls: "", contact: {
       tel: "13400000000",
-      email: "rerer3r@sdsd.com",
+      email: "eee@xxx.com",
       wechat: "alkdhfae",
       addr: "44 Nan Jing Xi Road, Huang Pu District, 210223"
     } },
   {
     id: 6, text: 'Dentistry', name: "Ben", title: "Doctor6", cls: "", contact: {
       tel: "13500000000",
-      email: "sdfffr@163.com",
+      email: "fff@xxx.com",
       wechat: "adfasa",
       addr: "145 Shang Dong Zhong Road, Huang Pu District, 34323"
     } },
