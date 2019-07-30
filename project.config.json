@@ -8,5 +8,40 @@
 	"projectname": "RemoteDoctor",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
-	"condition": {}
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 1,
+			"list": [
+				{
+					"id": -1,
+					"name": "specialist",
+					"pathName": "pages/remoteDiagnosis/specialist",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 1,
+					"name": "remote",
+					"pathName": "pages/remoteDiagnosis/remote",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
 }

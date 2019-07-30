@@ -14,7 +14,7 @@
 
   <!-- Remote Diagnosis -->
   <view class="function">
-    <navigator url="../remote/remote" open-type="navigate" class="function-text">
+    <navigator url="../remoteDiagnosis/remote" open-type="navigate" class="function-text">
       <text>Remote Diagnosis</text>
     </navigator>
   </view>
@@ -41,4 +41,5 @@
     </navigator>
   </view>
 
+  
   </view>

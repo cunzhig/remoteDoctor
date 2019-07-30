@@ -25,5 +25,9 @@
   </view>
 
 
-  <view class='submit'><button class = 'submitBtn' form-type='submit'>Submit</button></view>
+  <view class='submit'>
+    <navigator url="../fourFunctions/fourFunctions" open-type="navigate" class="function-text">
+      <button class = 'submitBtn' form-type='submit'>Submit</button>
+    </navigator>
+  </view>
 </form>

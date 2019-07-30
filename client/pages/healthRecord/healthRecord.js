@@ -107,6 +107,7 @@ Page({
 
   //添加
   res: function (e) {
+    wx.cloud.init()
     const db = wx.cloud.database()
     db.collection('Records').add({
       data: {
