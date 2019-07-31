@@ -1,4 +1,5 @@
 <view class = "history">
+
 <view class = "container">
 <text class="title">Health Record History</text>
 </view>

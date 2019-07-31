@@ -1,4 +1,8 @@
 <!--client/pages/healthRecord/healthRecord.wxml-->
+  <view class="head" >
+  <view class="empty"></view>
+  <text id = "header">Add \n Prescription</text>
+  </view>
 <form bindsubmit='res'>
   <view class="section">
         <view class="prescription">Drug Name：
@@ -23,7 +27,7 @@
   </view>
 
 
-  <view class='submit'><button class = 'submitBtn' form-type='submit'>Submit</button></view>
+  <button class = 'submitBtn' form-type='submit' type="primary">Submit</button>
 
   <view class='submit'>
   <navigator url="../pxview/pxview" open-type="navigate" class='history-text'>

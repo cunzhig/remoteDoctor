@@ -6,7 +6,7 @@
 
 <form bindsubmit='res'>
  <view class='search wrapper iconfont icon-chakan'>
-  <input class="input " type="strings" name="symptoms" placeholder="Please input your symptoms"
+  <input class="input" type="strings" name="symptoms" placeholder="Please input your symptoms"
       bindinput ="healthInput"/>
  </view>
 

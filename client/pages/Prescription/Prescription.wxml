@@ -1,11 +1,15 @@
+  <view class="head" >
+  <view class="empty"></view>
+  <text id = "header"> \n Prescription</text>
+  </view>
 
-<view class="my_title">
+<view class="fda">
 
-  <cover-image class="search_bar" style="width: 220rpx;height: 160rpx;" src="search_bar.png" bindtap='invitation'> </cover-image>
+<button bindtap='invitation'class = "search iconfont icon-chakan">FDA</button>
 
+<view class="fda">
 
-<view class="my_title">
- <button bindtap='goToAddPx'>Prescription Add</button>
- <button bindtap="goToViewPx">Prescription view</button>
+ <button bindtap='goToAddPx'>Add Prescription</button>
+ <button bindtap="goToViewPx">View Prescription</button>
 </view>
 </view>
