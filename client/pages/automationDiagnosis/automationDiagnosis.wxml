@@ -26,7 +26,7 @@
   <button class='wepay iconfont icon-Google' bindtap='goGoogle'></button>
 </view>
 <view class='wrapper'>
-  <button class='wepay iconfont icon-dingxiangyisheng' bindtap='goDingxiang'>Dingxiang Doctors</button>
+  <button class='wepay' bindtap='goDingxiang'>Dingxiang Doctors</button>
 </view>
 <view class='wrapper'>
   <button class='wepay iconfont icon-bing' bindtap='goBing'></button>
