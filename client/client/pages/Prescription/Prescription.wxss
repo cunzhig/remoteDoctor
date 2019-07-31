@@ -1,0 +1,14 @@
+.my_title{
+ 
+ align-items: center;
+ padding: 10rpx;
+ background-color: #fff;
+}
+.logo{
+	flex: 7;
+}
+.search_bar{
+  align-items: center;
+  align-content: center;
+  padding:10rpx;
+}

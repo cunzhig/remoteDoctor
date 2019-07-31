@@ -1,0 +1,33 @@
+/* client/pages/healthRecord/healthRecord.wxss */
+.healthView{
+  margin-left:30rpx;
+  margin-bottom: 50rpx;
+}
+
+.submit {
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 40rpx;
+  height: 140rpx;
+  width: 90%;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: all 300ms ease;
+  
+}
+
+.submitBtn{
+  text-align: center;
+  color: #007aff;
+}
+
+.history-text{
+  width: 100%;
+  line-height: 45px;
+  font-size: 36rpx;
+  color: #007aff;
+  text-align: center;
+}
