@@ -16,5 +16,30 @@
     "navigationBarTitleText": "Remote Doctor",
     "navigationBarTextStyle": "black"
   },
+    "tabBar": {
+      "color":"#ffffff",
+      "backgroundColor": "#000000",
+      "selectedColor": "#FCE2A9",
+      "list": [
+        {
+          "pagePath": "pages/fourFunctions/fourFunctions",
+          "text": "Home",
+          "iconPath":"images/home0.png",
+          "selectedIconPath":"images/home1.png"
+        },
+        {
+          "pagePath": "pages/remoteDiagnosis/remote",
+          "text": "Diagnosis",
+          "iconPath": "images/diagnosis0.png",
+          "selectedIconPath": "images/diagnosis1.png"
+        },
+        {
+          "pagePath": "pages/healthRecord/healthRecord",
+          "text": "Record",
+          "iconPath": "images/record0.png",
+          "selectedIconPath": "images/record1.png"
+        }
+      ]
+    },
   "sitemapLocation": "sitemap.json"
 }

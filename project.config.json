@@ -25,7 +25,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 1,
+			"current": 3,
 			"list": [
 				{
 					"id": -1,
@@ -38,6 +38,20 @@
 					"id": 1,
 					"name": "remote",
 					"pathName": "pages/remoteDiagnosis/remote",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "index",
+					"pathName": "pages/fourFunctions/fourFunctions",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "record",
+					"pathName": "pages/healthRecord/healthRecord",
 					"query": "",
 					"scene": null
 				}

@@ -3,17 +3,20 @@
   margin-left:auto;
   margin-right:auto;
   margin-bottom: 30rpx;
-  margin-top: 30rpx;
+  margin-top: 20rpx;
   height: 290rpx;
   width: 290rpx;
-  background: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #585858;
+  /* border: 1px solid rgba(0, 0, 0, 0.1); */
   /* border-left: none;
   border-right: none; */
   display: flex;
   flex-direction: row;
   align-items: center;
   transition: all 300ms ease;
+  border-radius: 20%;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
 }
 
 .funcIndex{
@@ -28,7 +31,7 @@
   width: 100%;
   line-height: 45px;
   font-size: 28rpx;
-  color: #007aff;
+  color: white;
   text-align: center;
 }
 
@@ -60,6 +63,6 @@
   margin-bottom: 100rpx;
   border-radius: 50%;
   background-size: contain; 
-  border: 10px solid #f6f6f6;
+  border: 10px solid white;
 }
 
