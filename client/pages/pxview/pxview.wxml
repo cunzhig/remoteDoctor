@@ -1,0 +1,15 @@
+<view class = "container">
+<text class="title">Prescription History Search</text>
+</view>
+
+  
+<input type="text" name='goodsname' class="inputGoods" placeholder="Enter Prescription_ID" bindinput="goodsNameInput" />
+<button class="loginBtn" size="default" bindtap="clickButton" form-type="submit">Submit</button>
+
+<view class="record" wx:for="{{records}}">
+  <view > Drug Name: {{item.Drug_Name}}</view>
+  <view> Dosage Form: {{item.Dosage_Form}}%</view>
+  <view > Route: {{item.R_oute}}</view>
+  
+</view>
+

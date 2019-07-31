@@ -1,0 +1,11 @@
+
+<view class="my_title">
+
+  <cover-image class="search_bar" style="width: 220rpx;height: 160rpx;" src="search_bar.png" bindtap='invitation'> </cover-image>
+
+
+<view class="my_title">
+ <button bindtap='goToAddPx'>Prescription Add</button>
+ <button bindtap="goToViewPx">Prescription view</button>
+</view>
+</view>

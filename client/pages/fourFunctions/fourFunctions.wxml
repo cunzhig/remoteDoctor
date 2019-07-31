@@ -28,15 +28,15 @@
 
   <!-- Automatic Diagnosis -->
   <view class="function">
-    <navigator url="" open-type="switchTab" class="function-text">
-      <text>Automatic Diagnosis</text>
+    <navigator url="../automationDiagnosis/automationDiagnosis" open-type="switchTab" class="function-text">
+      <text>Searching Engine</text>
     </navigator>
   </view>
 
 
   <!-- Prescription -->
   <view class="function">
-    <navigator url="" open-type="switchTab" class="function-text">
+    <navigator url="../Prescription/Prescription" open-type="switchTab" class="function-text">
       <text>Prescription</text>
     </navigator>
   </view>
