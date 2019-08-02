@@ -64,51 +64,34 @@ Page({
 
   },
 
-  goDevice: function () {
-    let url = 'http://182.151.212.156:8020/DataListForSn.aspx?SN=190616001';
-    wx.setStorageSync('url', url);
-    wx.navigateTo({
-      url: '../healthRecord/out', //
-      success: function () {
-
-      },       //成功后的回调；
-      fail: function () { },         //失败后的回调；
-      complete: function () { }
-    })
-  },
-
 
 
   //添加
   res: function (e) {
     wx.cloud.init()
     const db = wx.cloud.database()
-    db.collection('Records').add({
+    db.collection('Prescription').add({
       data: {
-        BPM: parseInt(e.detail.value.pulse),
-        NIBP_H: parseInt(e.detail.value.hpressure),
-        NIBP_L: parseInt(e.detail.value.lpressure),
-        SpO2: parseInt(e.detail.value.oxygen),
-        temp: parseFloat(e.detail.value.temp),
-        date: db.serverDate(),
+        Drug_Name: e.detail.value.drugName,
+        Dosage_Form: e.detail.value.dosageForm,
+        R_oute: e.detail.value.route,
+        Prescription_Id: e.detail.value.pxid,
       },
       success: res => {
         // 在返回结果中会包含新创建的记录的 _id
         this.setData({
-          BPM: '',
-          NIBP_H: '',
-          NIBP_L:'',
-          SpO2: '',
-          temp: '',
-          date: db.serverDate(),
+          Drug_Name: '',
+          Dosage_Form: '',
+          R_oute: '',
+          Prescription_Id: '',
         })
         wx.showToast({
           title: 'Successful',
         })
         console.log('[数据库] [新增记录] 成功，记录 _id: ', res._id)
-        wx.navigateTo({
-          url: '/pages/recordHistory/recordHistory'
-        })
+        // wx.navigateTo({
+        //   url: '/pages/recordHistory/recordHistory'
+        // })
       },
       fail: err => {
         wx.showToast({

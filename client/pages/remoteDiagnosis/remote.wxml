@@ -1,5 +1,8 @@
 <!--client/pages/remoteDiagnosis/remote.wxml-->
-
+  <view class="head" >
+  <view class="empty"></view>
+  <text id = "header">Remote \n Diagnosis</text>
+  </view>
 <view class = "remote">
 <view class="remote-function">
     <navigator url="general" open-type="navigate" class="remote-text">

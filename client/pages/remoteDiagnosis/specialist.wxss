@@ -9,14 +9,13 @@
 }
 .left-container{
   width:300rpx;
-  
 }
 
 .right-container{
   width:100%;
-  margin-left:20rpx;
-  margin-bottom:30rpx;
-  margin-right:20rpx;
+  padding-left:20rpx;
+  padding-bottom:30rpx;
+  padding-right:20rpx;
 }
 
 .doctor{
@@ -24,9 +23,11 @@
   text-align: center;
   height:200rpx;
   line-height: 200rpx;
-  border-bottom:2rpx solid #CCC;
-  border-right:2rpx solid #CCC;
-  background-color: #EEE;
+  border-bottom:4rpx solid white;
+  border-right:4rpx solid white;
+  background-color: #FCE2A9;
+  font-weight: bold;
+  padding:5rpx;
 }
 
 .cur-doctor{
@@ -42,6 +43,7 @@
   /* line-height: 50px; */
   padding-left:10px;
   margin-top:20px;
+  background-color:white;
 }
 
 .contact-info{
@@ -54,6 +56,7 @@
   /* line-height: 50px; */
   padding-left:10px;
   line-height: 60rpx;
+  background-color:white;
 }
 
 .large-font{
@@ -63,4 +66,13 @@
 .small-font{
   font-size:10pt;
   color: darkgray;
+}
+
+
+.small-font-black{
+  font-size:10pt;
+}
+
+.icon-weixin{
+  color:#62b900;
 }

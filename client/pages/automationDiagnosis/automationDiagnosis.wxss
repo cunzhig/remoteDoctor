@@ -1,4 +1,4 @@
-/* client/pages/healthRecord/healthRecord.wxss */
+/* pages/automationDiagnosis/automationDiagnosis.wxss */
 @import "stylesheet.wxss";
 .head {
   height: 210rpx;
@@ -23,50 +23,9 @@
   font-weight:bolder;
   line-height: 60rpx;
 }
-.healthView{
-  margin-left:30rpx;
-  margin-bottom: 50rpx;
-}
 
-.submit {
-  margin-left:auto;
-  margin-right:auto;
-  margin-top: 20rpx;
-  height: 100rpx;
-  width: 90%;
-  background: #585858;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  transition: all 300ms ease;
-  border-radius: 30rpx;
-}
-
-.submitBtn{
-  text-align: center;
-  color: white;
-  width:90%;
-  border-radius: 30rpx;
-}
-
-.history-text{
-  width: 100%;
-  line-height: 45px;
-  font-size: 36rpx;
-  color: white;
-  text-align: center;
-}
-
-.section{
-  border:3rpx solid #CCC;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
-  display: grid;
-	grid-template-columns: 1fr;
-  /* line-height: 50px; */
-  /* padding:5rpx; */
-  padding-top:10rpx;
-  padding-bottom: 5rpx;
-  margin:20rpx;
+.iconfont{
+  font-size:40rpx;
 }
 
 button::after{
@@ -77,4 +36,48 @@ button{
   background-color: #585858;
   border-radius:0;
   color: white;
+}
+
+.wepy{
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 20rpx;
+  height: 100rpx;
+  background: #585858;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: all 300ms ease;
+  text-align: center;
+  color: white;
+  width:90%;
+}
+.wrapper{
+  width:90%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:20rpx;
+  border-radius: 30rpx;
+}
+
+.submitBtn{
+  text-align: center;
+  color: white;
+  width:90%;
+  border-radius: 30rpx;
+  margin-top:30rpx;
+}
+
+.input{
+  display:inline-block;
+  width:80%;
+  padding-left:20rpx;
+}
+
+.search{
+  padding-left:20rpx;
+  height:80rpx;
+  padding-top:40rpx;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }

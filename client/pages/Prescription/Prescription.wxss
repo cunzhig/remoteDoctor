@@ -1,5 +1,6 @@
-/* client/pages/healthRecord/healthRecord.wxss */
 @import "stylesheet.wxss";
+
+
 .head {
   height: 210rpx;
   width: 100%;
@@ -23,50 +24,28 @@
   font-weight:bolder;
   line-height: 60rpx;
 }
-.healthView{
-  margin-left:30rpx;
-  margin-bottom: 50rpx;
-}
 
-.submit {
+.search{
   margin-left:auto;
   margin-right:auto;
-  margin-top: 20rpx;
-  height: 100rpx;
-  width: 90%;
+  margin-bottom: 30rpx;
+  margin-top: 30rpx;
+  height: 290rpx;
+  width: 290rpx;
   background: #585858;
   display: flex;
   flex-direction: row;
   align-items: center;
   transition: all 300ms ease;
-  border-radius: 30rpx;
-}
-
-.submitBtn{
-  text-align: center;
-  color: white;
-  width:90%;
-  border-radius: 30rpx;
-}
-
-.history-text{
-  width: 100%;
-  line-height: 45px;
-  font-size: 36rpx;
-  color: white;
-  text-align: center;
-}
-
-.section{
-  border:3rpx solid #CCC;
+  border-radius: 20%;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
-  display: grid;
-	grid-template-columns: 1fr;
-  /* line-height: 50px; */
-  /* padding:5rpx; */
-  padding-top:10rpx;
-  padding-bottom: 5rpx;
-  margin:20rpx;
+  font-weight: bold;
+  text-align: center;
+}
+
+.icon-chakan{
+  font-size: 70rpx;
+  color: white;
 }
 
 button::after{
@@ -75,6 +54,8 @@ button::after{
 
 button{
   background-color: #585858;
-  border-radius:0;
   color: white;
+  border-radius: 30rpx;
+  width:90%;
+  margin-bottom:20rpx;
 }

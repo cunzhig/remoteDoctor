@@ -30,11 +30,12 @@ Page({
 
     this.setData({
       doctorName:doctorData[0].name,
-      doctorTitle: doctorData[0].text,
+      doctorTitle: doctorData[0].title,
       doctorTel: doctorData[0].contact.tel,
       doctorWC: doctorData[0].contact.wechat,
       doctorEmail: doctorData[0].contact.email,
       doctorAddr: doctorData[0].contact.addr,
+      doctorSpec: doctorData[0].spec
     })
 
   },
@@ -47,14 +48,16 @@ Page({
     var name = ''
     var title = ''
     var contact = this.data.doctorData.contact
+    var spec =""
     for(var i = 0; i < doctorData.length;i++){
       if(doctorData[i].id == id){
         doctorData[i].cls = "cur-doctor"
         name = doctorData[i].name
-        title = doctorData[i].text
+        title = doctorData[i].title
         // tel = doctorData[i].tel
         // wechat = doctorData[i].wechat
         contact = doctorData[i].contact
+        spec = doctorData[i].spec
       }else{
         doctorData[i].cls = ""
       }
@@ -68,6 +71,7 @@ Page({
       doctorWC: contact.wechat,
       doctorEmail: contact.email,
       doctorAddr: contact.addr,
+      doctorSpec: spec
     })
   },
 
