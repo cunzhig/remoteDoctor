@@ -7,6 +7,7 @@
 
 <view class="record" wx:for="{{records}}">
   <view class="date">{{item.date}}</view>
+  <view wx:if="{{item.name}}" class="data iconfont icon-pulse"> Name: {{item.name}}</view>
   <view wx:if="{{item.BPM}}" class="data iconfont icon-pulse"> Pulse Rate: {{item.BPM}}</view>
   <view wx:if="{{item.SpO2}}" class="data iconfont icon-blood"> Blood Oxygen: {{item.SpO2}}%</view>
   <view wx:if="{{item.NIBP_H}}" class="data iconfont icon-xueya"> Systolic Pressure: {{item.NIBP_H}}</view>
