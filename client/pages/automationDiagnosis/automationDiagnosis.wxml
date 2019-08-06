@@ -1,6 +1,6 @@
   <view class="head" >
   <view class="empty"></view>
-  <text id = "header">Searching \n Engine</text>
+  <text id = "header">Search \n Engine</text>
   </view>
 
 

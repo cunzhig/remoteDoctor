@@ -38,7 +38,7 @@
   </view>
 
     <view class='submit'>
-    <button class='submitBtn' bindtap='goDevice'>BioData</button>
+    <button class='submitBtn' bindtap='goDevice'>Vita Signs</button>
   </view>
   
 </form>

@@ -29,7 +29,7 @@
   <!-- Automatic Diagnosis -->
   <view class="function">
     <navigator url="../automationDiagnosis/automationDiagnosis" open-type="switchTab" class="function-text">
-      <text>Searching Engine</text>
+      <text>Search Engine</text>
     </navigator>
   </view>
 
