@@ -1,5 +1,6 @@
 /* client/pages/healthRecord/healthRecord.wxss */
 @import "stylesheet.wxss";
+@import "name.wxss";
 .head {
   height: 210rpx;
   width: 100%;

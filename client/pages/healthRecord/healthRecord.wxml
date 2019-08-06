@@ -5,7 +5,7 @@
   </view>
 <form bindsubmit='res'>
   <view class="section">
-      <view class="healthView iconfont icon-pulse">Name：
+      <view class="healthView iconfont icon-name">Name：
       <input class="input" type="text" name="name" value='{{name}}' placeholder="Please input your name"
       bindinput ="healthInput"/>
       </view>
