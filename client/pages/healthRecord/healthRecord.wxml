@@ -5,7 +5,12 @@
   </view>
 <form bindsubmit='res'>
   <view class="section">
-        <view class="healthView iconfont icon-pulse">Pulse Rate(bpm)：
+      <view class="healthView iconfont icon-pulse">Name：
+      <input class="input" type="text" name="name" value='{{name}}' placeholder="Please input your name"
+      bindinput ="healthInput"/>
+      </view>
+
+      <view class="healthView iconfont icon-pulse">Pulse Rate(bpm)：
       <input class="input" type="number" name="pulse" value='{{BPM}}' placeholder="Please input your pulse"
       bindinput ="healthInput"/>
       </view>
@@ -38,7 +43,7 @@
   </view>
 
     <view class='submit'>
-    <button class='submitBtn' bindtap='goDevice'>BioData</button>
+    <button class='submitBtn' bindtap='goDevice'>Vital Signs</button>
   </view>
   
 </form>

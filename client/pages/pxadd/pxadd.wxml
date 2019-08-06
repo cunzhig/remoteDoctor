@@ -5,7 +5,12 @@
   </view>
 <form bindsubmit='res'>
   <view class="section">
-        <view class="prescription">Drug Name：
+      <view class="prescription">Name：
+      <input class="input" type="text" name="name" value='{{name}}' placeholder="Please input your name"
+      bindinput ="healthInput"/>
+      </view>
+
+      <view class="prescription">Drug Name：
       <input class="input" type="text" name="drugName" value='{{Drug_Name}}' placeholder="Input Drug Name"
       bindinput ="healthInput"/>
       </view>

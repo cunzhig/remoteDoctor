@@ -85,6 +85,7 @@ Page({
     const db = wx.cloud.database()
     db.collection('Records').add({
       data: {
+        name: e.detail.value.name,
         BPM: parseInt(e.detail.value.pulse),
         NIBP_H: parseInt(e.detail.value.hpressure),
         NIBP_L: parseInt(e.detail.value.lpressure),
@@ -95,6 +96,7 @@ Page({
       success: res => {
         // 在返回结果中会包含新创建的记录的 _id
         this.setData({
+          name: '',
           BPM: '',
           NIBP_H: '',
           NIBP_L:'',

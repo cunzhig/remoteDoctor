@@ -72,6 +72,7 @@ Page({
     const db = wx.cloud.database()
     db.collection('Prescription').add({
       data: {
+        name: e.detail.value.name,
         Drug_Name: e.detail.value.drugName,
         Dosage_Form: e.detail.value.dosageForm,
         R_oute: e.detail.value.route,
